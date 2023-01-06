@@ -1,0 +1,29 @@
+/*----------------------------
+Header style css 
+--------------------------- */
+#frist-section {
+    margin-left: 70%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+/* --------------------
+footer-section css
+----------------------- */
+footer {
+    color: aliceblue;
+    background-color: black;
+    height: 500px;
+}
+
+.row {
+    display: flex
+}
+
+.column1 {
+    margin: 100px 120px;
+}
+
+.column2 {
+    margin: 100px 900px;
+}
