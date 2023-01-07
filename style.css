@@ -1,12 +1,13 @@
 /*----------------------------
 Header style css 
 --------------------------- */
-header {
+.header-beackground-image {
     background-image: url(images/banner/banner3.png);
     height: 808px;
 }
 
 #frist-section {
+    color: whitesmoke;
     margin-left: 70%;
     margin-right: 10%;
     text-align: right;
@@ -74,9 +75,28 @@ main section
     background-repeat: no-repeat;
 }
 
+
 .gradient li {
     color: aliceblue;
     list-style: none;
+}
+
+/*-----------------------------------
+ bonuse-section
+------------------------------------- */
+.bonuse-section {
+    margin-left: 30%;
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.bonuse-section ul {
+    display: flex;
+}
+
+.bonuse-section ul li {
+    list-style: none;
+    margin-left: 50px;
 }
 
 /* --------------------
