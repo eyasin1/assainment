@@ -13,11 +13,71 @@ header {
 }
 
 /* ----------------------------
+--------------------------------
 main section
+--------------------------------
  -------------------------------*/
+/* 1st- section */
+.failures {
+    display: flex;
+    height: fit-content;
+    width: 1000px;
+    margin: 22%;
+    background-color: aliceblue;
+}
 
+#fail {
+    margin-top: 40%;
+}
 
+#fail li {
+    list-style: none;
+}
 
+#fails-list li {
+    list-style: circle;
+}
+
+/* -----------------------------------
+             2nd-section 
+---------------------------------------*/
+#my-plans {
+    text-align: center;
+}
+
+.promise {}
+
+.plans ul {
+    display: flex;
+    margin: 2% 0% 5% 15%;
+}
+
+.plans ul li {
+    list-style: none;
+    margin-left: 9%;
+    text-align: center;
+}
+
+/*--------------------------------------------
+                       3rd section
+-------------------------------------------*/
+.watch {
+    margin-left: 18%;
+    height: 500px;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+}
+
+.gradient {
+    height: 500px;
+    background-image: url(images/gradient1.png);
+    background-repeat: no-repeat;
+}
+
+.gradient li {
+    color: aliceblue;
+    list-style: none;
+}
 
 /* --------------------
 footer-section css
