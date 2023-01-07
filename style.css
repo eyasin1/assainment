@@ -8,6 +8,7 @@ Header style css
 
 #frist-section {
     color: whitesmoke;
+    padding-top: 90px;
     margin-left: 70%;
     margin-right: 10%;
     text-align: right;
@@ -71,12 +72,14 @@ main section
 
 .gradient {
     height: 500px;
+    padding-top: 40px;
     background-image: url(images/gradient1.png);
     background-repeat: no-repeat;
 }
 
 
 .gradient li {
+
     color: aliceblue;
     list-style: none;
 }
