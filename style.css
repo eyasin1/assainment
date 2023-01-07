@@ -1,11 +1,23 @@
 /*----------------------------
 Header style css 
 --------------------------- */
+header {
+    background-image: url(images/banner/banner3.png);
+    height: 808px;
+}
+
 #frist-section {
     margin-left: 70%;
     margin-right: 10%;
     text-align: right;
 }
+
+/* ----------------------------
+main section
+ -------------------------------*/
+
+
+
 
 /* --------------------
 footer-section css
@@ -14,6 +26,15 @@ footer {
     color: aliceblue;
     background-color: black;
     height: 500px;
+}
+
+#icon {
+    display: flex;
+}
+
+footer li {
+    margin: 10px;
+    list-style: none;
 }
 
 .row {
